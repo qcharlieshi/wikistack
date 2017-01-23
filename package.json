@@ -1,0 +1,28 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "Wiki Clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e html,js,css ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qcharlieshi/wikistack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qcharlieshi/wikistack/issues"
+  },
+  "homepage": "https://github.com/qcharlieshi/wikistack#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "morgan": "^1.7.0",
+    "nunjucks": "^3.0.0"
+  }
+}
