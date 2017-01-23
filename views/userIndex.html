@@ -1,0 +1,12 @@
+{% extends "./layout.html" %}
+
+{% block content %}
+    <h3>{{user.name}}'s Pages</h3>
+    <hr>
+        <ul class="list-unstyled">
+        {% for page in pages %}
+            <l1><a href="{{page.urlTitle}}">{{page.title}}</a></li><br>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
